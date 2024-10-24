@@ -15,7 +15,7 @@ int main() {
     for (int i = 0; i < size; i++) {
         maxh.push(arr[i]);  // Insert elements into the max-heap
         
-        // If the heap size exceeds k, remove the largest element
+        // If the heap size exc`                                                                                                                                            ```````````````````+++++++++++++++++++eeds k, remove the largest element
         if (maxh.size() > k) {
             maxh.pop();
         }
