@@ -9,7 +9,7 @@ class student
     string name;
     public:
     void setname(string n)
-    {
+    {   
         name=n;
     }
     void setage(int a)
@@ -32,7 +32,7 @@ class student
     void getage()
     {
         cout<<age<<endl;
-    }
+    } 
 };
 
 
